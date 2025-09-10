@@ -7,5 +7,3 @@ sleep 10
 
 # Start the web server to serve the application
 serve -s . -l 3000
-
-#comment
