@@ -188,6 +188,7 @@
                             <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Title</th>
                             <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Requester</th>
                             <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Request Date</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Agreed Due Date</th>
                             <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
                             <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Assigned To</th>
                             <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
@@ -391,6 +392,7 @@
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${request.requestTitle || 'N/A'}</td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${request.requester}</td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${request.requestDate}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${request.agreedDueDate || 'N/A'}</td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${request.requestStatus || 'Submitted'}</td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${request.assignee || 'Unassigned'}</td>
                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
